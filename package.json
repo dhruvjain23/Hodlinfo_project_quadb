@@ -1,0 +1,24 @@
+{
+  "name": "QuadB_hodlinfo_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Dhruv Jain",
+  "license": "ISC",
+
+
+  "dependencies": {
+    "axios": "^1.4.0",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.43",
+    "mongoose": "^7.2.2",
+    "node-fetch": "^3.3.1",
+    "nodemon": "^2.0.22"
+  }
+}
