@@ -15,7 +15,7 @@ app.use(express.urlencoded({
 
 app.set('view engine', 'ejs')
 
-const dbURI = "mongodb+srv://djain01d:FvH6QiX4f23hF9NH@cluster0.o5wsr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+const dbURI = "Your Mongo URl"
 const PORT = process.env.PORT || 3500
 
 mongoose.connect(dbURI)
